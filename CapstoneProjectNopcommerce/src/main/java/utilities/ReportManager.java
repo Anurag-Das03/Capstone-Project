@@ -17,8 +17,9 @@ public class ReportManager {
 			extent.attachReporter(report);
 
 			extent.setSystemInfo("Tester", "Anurag Das");
-			extent.setSystemInfo("Project", "SauceDemoAutomation");
+			extent.setSystemInfo("Project", "NopcommerceAutomation");
 		}
 		return extent;
 	}
 }
+
