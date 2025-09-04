@@ -23,7 +23,6 @@ public class Hooks {
 	private static ExtentReports extent = ReportManager.getExtentReports();
 	private static ExtentTest test;
 
-	// Global delay in milliseconds
 	private static final long STEP_DELAY = 3000;
 
 	@Before
@@ -58,3 +57,4 @@ public class Hooks {
 		extent.flush();
 	}
 }
+
